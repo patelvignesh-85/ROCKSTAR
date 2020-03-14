@@ -1,7 +1,7 @@
 class Circle:
   def CalculateArea(self):
         print("Enter radius")
-        self.s=float(input())
+        self.s= float(input())
         area=3.14*self.s*self.s
         print("Area of Circle is=%f"%(area))
   def CalculatePerimeter(self):
